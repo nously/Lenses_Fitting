@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		<title>Lenses Fitting</title>
+		<link href="css/materialize.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	
+		<link href="stylesheet.css" rel="stylesheet">	
+	</head>
+
+	<body>
+		<div id="container" class="row">
+			<div class="col s12">
+				<div class="row">
+					<div id="input-area" class="col s12">
+						<div class="row">
+							<div class="input-field col s12">
+								<input type="number" min="1" max="3" id="age" placeholder="Age of Patient | (1) young, (2) pre-presbyopic, (3) presbyopic">
+							</div>
+						</div>
+						
+						<div class="row">
+							<div class="input-field col s12">
+								<input type="number" min="1" max="2" placeholder="Spectacle Prescription | (1) myope, (2) hypermetrope" id="spectacle">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="input-field col s12">
+								<input type="number"  min="1" max="2" placeholder="Astigmatic | (1) no, (2) yes" id="astigmatic">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="input-field col s12">
+								<input type="number" min="1" max="2" placeholder="Tear Production Rate | (1) reduced, (2) normal" id="tpr">
+							</div>
+						</div>
+						<center>
+							<a id="classify" class="waves-effect waves-light btn-large"><i class="material-icons right">directions_run</i><i class="material-icons right">fast_forward</i>Classify</a>
+						</center>
+					</div>
+				</div>
+				<div class="row">
+					<div id="result-area" class="col s12">
+						<div class="card blue-grey darken-1">
+							<div class="card-content white-text">
+								<span class="card-title">Classification Result</span>
+								<p id="result"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		<div id="container">
+			<div id="input-area">
+				<input type="number" placeholder="Age of Patient" id="age">
+				<input type="number" placeholder="Spectacle" id="spectacle">
+				<input type="number" placeholder="Astigmatic" id="astigmatic">
+				<input type="number" placeholder="Tear Production Rate" id="tpr">
+				<button id="classify">Classify</button>
+			</div>
+			<div id="result-area">
+				<p id="result">LALALALALA</p>
+			</div>
+		</div>
+
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/materialize.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+
+</html>

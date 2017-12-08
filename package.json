@@ -1,0 +1,15 @@
+{
+  "name": "lensesfitting_js",
+  "version": "1.0.0",
+  "description": "Lenses Fitting app using KNN",
+  "main": "index.js",
+  "scripts": {
+    "start":"electron index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dyah Ayu P",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.7.9"
+  }
+}
